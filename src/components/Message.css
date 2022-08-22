@@ -1,0 +1,13 @@
+.message{
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+}
+
+.user{
+    margin-left: auto;
+    color: whitesmoke !important;
+    text-align: left;
+    /* border: solid 1px black; */
+    background-color: blue !important;
+}

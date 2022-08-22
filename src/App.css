@@ -1,0 +1,51 @@
+.App {
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+  gap: 12px;
+}
+
+.msg{
+  flex: 1;
+  overflow-y: auto;
+}
+
+.footer {
+  margin: 0 10px;
+  margin-bottom: 5px;
+}
+
+.form {
+  text-align: center;
+  display: flex;
+  background-color: azure;
+  position: fixed;
+  margin: 5px;
+  bottom: 0px;
+  z-index: 1;
+  width: 100%;
+}
+
+.formcontrol {
+  display: flex !important;
+  flex-direction: row !important;
+  width: 100%;
+}
+
+.msginput{
+  flex: 1;
+}
+
+.msgbutton{
+  flex: 0;
+}
